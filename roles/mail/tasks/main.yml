@@ -1,14 +1,4 @@
 ---
-- name: Install mutt
-  aur: name=neomutt user={{ user.name }}
-  tags:
-    - aur
-
-- name: Install urlview
-  aur: name=urlview user={{ user.name }}
-  tags:
-    - aur
-
 - name: Install notmuch
   pacman: name=notmuch state=present
 
@@ -16,4 +6,3 @@
 - include: isync.yml
 - include: offlineimap.yml
 - include: mailsync.yml
-- include: contacts.yml
