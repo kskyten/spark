@@ -38,7 +38,7 @@ network:
         - b94375d1-70f8-424f-a6d7-dc52d0ab7288
 
 editors:
-    - gvim
+    - emacs
 
 video_drivers:
     - xf86-video-intel
@@ -50,24 +50,19 @@ base_packages:
     - gnupg
     - rsync
     - glances
-    - task
     - coreutils
     - moreutils
     - pass
     - reflector
-    - bc
-    - ranger
     - strace
     - lsof
     - sysstat
     - arch-wiki-lite
     - python-keyring
     - python-secretstorage
-    - fabric
     - tig
     - ruby
     - pv
-    - minicom
     - jq
 
 filesystem_packages:
@@ -81,8 +76,6 @@ browser_choices:
     - firefox -P work
     - firewarden chromium
     - tor-browser-en
-    - play
-    - qcode
 
 passwordless_sudo:
     - /usr/bin/openvpn*
