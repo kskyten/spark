@@ -4,7 +4,8 @@
   roles:
     - { role: base, tags: ['base'] }
     - { role: cron, tags: ['cron'] }
-    - { role: microcode, tags: ['microcode'], when: "'GenuineIntel' in ansible_processor" }
+    - { role: microcode, tags: ['microcode'],
+    when: "'GenuineIntel' in ansible_processor" }
     - { role: grsec, tags: ['grsec'] }
     - { role: ssh, tags: ['ssh'] }
     - { role: dotfiles, tags: ['dotfiles'] }
@@ -29,7 +30,8 @@
     - { role: mpd, tags: ['mpd'] }
     - { role: mpv, tags: ['mpv'] }
     - { role: laptop, tags: ['laptop'] }
-    - { role: thinkpad, tags: ['thinkpad'], when: "'ThinkPad' in ansible_product_version" }
+    - { role: thinkpad, tags: ['thinkpad'],
+    when: "'ThinkPad' in ansible_product_version" }
     - { role: screensaver, tags: ['screensaver'] }
     - { role: chat, tags: ['chat'] }
     - { role: git-annex, tags: ['git-annex'] }
