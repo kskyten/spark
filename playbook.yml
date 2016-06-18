@@ -49,7 +49,6 @@
     - { role: sound, tags: ['sound'] }
     - { role: pim, tags: ['pim'] }
     - { role: formd, tags: ['formd'] }
-    - { role: postgresql, tags: ['postgresql'] }
     - { role: calibre, tags: ['calibre'] }
     - { role: cli53, tags: ['cli53'] }
   vars_prompt:
