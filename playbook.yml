@@ -41,7 +41,6 @@
     - { role: redshift, tags: ['redshift'] }
     - { role: rtorrent, tags: ['rtorrent'] }
     - { role: virtualbox, tags: ['virtualbox'] }
-    - { role: hashicorp, tags: ['hashicorp'] }
     - { role: virtualenv, tags: ['virtualenv'] }
     - { role: backup, tags: ['backup'] }
     - { role: tarsnap, tags: ['tarsnap'] }
