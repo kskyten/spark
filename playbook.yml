@@ -1,5 +1,5 @@
 ---
-- hosts: localhost
+- hosts: vagrant
   become: yes
   roles:
     - { role: base, tags: ['base'] }
