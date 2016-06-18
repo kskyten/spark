@@ -49,7 +49,6 @@
     - { role: tarsnap, tags: ['tarsnap'] }
     - { role: sound, tags: ['sound'] }
     - { role: pim, tags: ['pim'] }
-    - { role: radio, tags: ['radio'] }
     - { role: formd, tags: ['formd'] }
     - { role: postgresql, tags: ['postgresql'] }
     - { role: calibre, tags: ['calibre'] }
